@@ -65,3 +65,10 @@ const applyDiscount = function(price, discountPercentage) {
 }; // Declaring function expression that takes price and discount percentage.
 let discountedPrice = applyDiscount(500, 15); // Returning discounted price.
 console.log(`Discounted price: $${discountedPrice}`); // Logging result to console.
+
+// Task 10 - Arrow Functions
+const calculatePoints = (purchaseAmount) => {
+    return (purchaseAmount / 10);
+}; // Writing arrow function that takes purchase amount and returns points earned. 
+let points = calculatePoints(500);
+console.log(`Loyalty Points: ${points}`); // Logging result to console. 
