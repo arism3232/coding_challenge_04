@@ -22,3 +22,10 @@ while (stock > 0) {
     stock--; // Decrementing by 1. 
 }; // Using while loop to decrease stock.
 console.log("Depleted stock"); // Logging each decrement to console. 
+
+// Task 4 - Do...While Loop
+let responses = 0; // Declaring variable with initial value. 
+do {
+    console.log(`Responses collected: ${responses}`);
+    responses++;
+} while (responses < 3); // Logging response count to console.
