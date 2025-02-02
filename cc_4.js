@@ -29,3 +29,13 @@ do {
     console.log(`Responses collected: ${responses}`);
     responses++;
 } while (responses < 3); // Logging response count to console.
+
+// Task 5 - For...In Loop
+let employee = {
+    name: "Alice",
+    position: "Manager",
+    salary: 75000
+}; // Declaring object with properties. 
+for (let key in employee) {
+    console.log(`${key}: ${employee[key]}`);
+}; // Logging each property and value to console. 
