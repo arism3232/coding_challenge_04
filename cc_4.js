@@ -51,3 +51,10 @@ let orders = [101, 102, 103]; // Declaring array with three orders.
 orders.forEach(order => {
     console.log(`order ID: ${order}`)
 }); // Logging order ID to console. 
+
+// Task 8 - Function Declaration
+function calculateTax(amount, taxRate) {
+    return amount * taxRate;
+}; // Writing function for amount and tax rate.
+let tax = calculateTax(800, 0.07); // Calculating returned tax.
+console.log(`Tax: $${tax}`); // Logging result to console. 
