@@ -39,3 +39,9 @@ let employee = {
 for (let key in employee) {
     console.log(`${key}: ${employee[key]}`);
 }; // Logging each property and value to console. 
+
+// Task 6 - For...Of Loop
+let products = ["Laptop", "Mouse", "Keyboard"]; // Declaring array with three products. 
+for (let product of products) {
+    console.log(`Product: ${product}`);
+}; // Logging each product name to console. 
