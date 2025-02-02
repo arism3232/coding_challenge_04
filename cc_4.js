@@ -45,3 +45,9 @@ let products = ["Laptop", "Mouse", "Keyboard"]; // Declaring array with three pr
 for (let product of products) {
     console.log(`Product: ${product}`);
 }; // Logging each product name to console. 
+
+// Task 7 - forEach() Method
+let orders = [101, 102, 103]; // Declaring array with three orders.
+orders.forEach(order => {
+    console.log(`order ID: ${order}`)
+}); // Logging order ID to console. 
